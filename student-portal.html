@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portal | Deakin</title>
+    <!-- Link to Custom CSS -->
+    <link href="student-portal.css" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Hero Section -->
+    <section class="student-portal-hero d-flex align-items-center text-center">
+        <div class="container">
+            <h1 class="display-4">Welcome to the Student Portal</h1>
+            <h2 class="lead">Access your academic records, course materials, schedules, and more, all in one place.</h2>
+            <a href="#dashboard" class="btn btn-primary mt-3">Go to Dashboard</a>
+        </div>
+    </section>
+
+    <!-- Dashboard Section -->
+    <section id="dashboard" class="student-portal-dashboard">
+        <div class="container">
+            <div class="row">
+                <!-- Academic Records Card -->
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow-sm">
+                        <div class="card-body text-center">
+                            <i class="fa fa-graduation-cap fa-3x mb-3 text-primary"></i>
+                            <h5 class="card-title">Academic Records</h5>
+                            <p class="card-text">View your grades, transcripts, and academic progress.</p>
+                            <a href="#" class="btn btn-outline-primary">View Records</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Course Materials Card -->
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow-sm">
+                        <div class="card-body text-center">
+                            <i class="fa fa-book fa-3x mb-3 text-primary"></i>
+                            <h5 class="card-title">Course Materials</h5>
+                            <p class="card-text">Access all course-related materials, lecture notes, and resources.</p>
+                            <a href="#" class="btn btn-outline-primary">View Materials</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Schedule Card -->
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow-sm">
+                        <div class="card-body text-center">
+                            <i class="fa fa-calendar fa-3x mb-3 text-primary"></i>
+                            <h5 class="card-title">Schedule</h5>
+                            <p class="card-text">Check your class schedule, exam dates, and important deadlines.</p>
+                            <a href="#" class="btn btn-outline-primary">View Schedule</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Announcements Section -->
+    <section class="student-portal-announcements py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Latest Announcements</h2>
+            <div class="row">
+                <!-- Announcement Card 1 -->
+                <div class="col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Upcoming Exam Schedule</h5>
+                            <p class="card-text">The exam schedule for the upcoming semester has been released. Please check the portal for detailed information.</p>
+                            <a href="#" class="btn btn-link">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Announcement Card 2 -->
+                <div class="col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">New Course Available</h5>
+                            <p class="card-text">A new elective course on Digital Marketing is now available for registration. Check the course catalog for details.</p>
+                            <a href="#" class="btn btn-link">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="student-portal-footer py-3 text-center">
+        <div class="container">
+            <p class="mb-0">&copy; 2024 Deakin University. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS (Optional) -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js"></script>
+</body>
+</html>
