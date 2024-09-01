@@ -1,20 +1,39 @@
-h1 {
-  font-size: 40px;
-  font-family: Arial;
-}
-h2 {
-  font-size: 25px;
-  font-family: Arial;
-}
-h3 {
-  font-family: Arial;
-}
-p {
-  font-size: 14px;
-  font-family: Arial;
+/* Header Styles */
+div {
+  background-color: blue;
+  text-align: right;
+  padding: 10px;
 }
 
-div {
-  background-color: darkcyan;
-  text-align: right;
+/* Main Header Styles */
+h1 {
+  font-size: 40px;
+  font-family: Arial, sans-serif;
+}
+
+/* Table Styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  font-family: Arial, sans-serif;
+}
+
+tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+
+/* Link Styles */
+a {
+  text-decoration: none;
+  color: darkcyan;
+}
+
+a:hover {
+  color: #0056b3;
 }
